@@ -42,7 +42,6 @@ def main():
     print(f"MSPM Charge Time: {t_mspm / 60.0:.2f} min, Final Voltage: {v_mspm:.3f} V")
     if max_stress is not None:
         print(f"MSPM Peak Surface Tangential Stress: {max_stress:.2f} MPa")
-    print("Simulation finished successfully.")
 
 if __name__ == "__main__":
     main()
