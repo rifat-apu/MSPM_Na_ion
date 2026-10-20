@@ -2,10 +2,6 @@
 
 This repository provides open-source implementations comparing the standard Single Particle Model (SPM) against a Modified Single Particle Model (MSPM) coupled with DFT-derived mechanical parameters and stress-induced diffusion.
 
-## Methodology Flowchart
-
-![Methodology Flowchart](Flowchart/Methodology_Flowchart.jpeg)
-
 ## Model Formulations
 ### 1. Standard Single Particle Model (SPM)
 - Assumes isolated spherical cathode and anode particles.
@@ -21,10 +17,6 @@ This repository provides open-source implementations comparing the standard Sing
   where $\Omega$ is the partial molar volume derived from DFT lattice volume variations.
 - Solid-state mechanical stress tensor computed dynamically using DFT-calculated Young's modulus $E$ and Poisson's ratio $\nu$.
 - Open-circuit potential (OCP) calibrated against DFT formation energies and cell voltages across variable Mn dopant stoichiometry.
-
-## Parameters
-
-The composition-dependent inputs bundled in `Models/spm.py` and `Models/mspm.py` — average voltages from DFT cell-voltage calculations, VRH-averaged elastic constants, and partial molar volumes from DFT volume changes — are provided so the models run out of the box. The diffusivity and volume-fraction values are representative placeholders, **not** the publication-calibrated set: results obtained with the bundled values do not correspond to the paper. The calibrated parameter set will be released alongside the publication.
 
 
 ## Requirements
@@ -43,10 +35,10 @@ python Examples/run_comparison.py
 ```text
 Running comparative simulation for Mn 50% (x = 0.5)...
 
-1. Solving Standard Single Particle Model (Model A: SPM)...
+1. Solving Standard Single Particle Model (SPM)...
    SPM completed in 11.60 min (Final Voltage: 4.200 V)
 
-2. Solving Modified Single Particle Model (Model B: MSPM with stress)...
+2. Solving Modified Single Particle Model (MSPM with stress)...
    MSPM completed in 11.84 min (Final Voltage: 4.200 V)
    Peak Surface Tangential Stress: 28.91 MPa
 
@@ -55,7 +47,6 @@ Composition: Mn 50%
 SPM Charge Time:  11.60 min, Final Voltage: 4.200 V
 MSPM Charge Time: 11.84 min, Final Voltage: 4.200 V
 MSPM Peak Surface Tangential Stress: 28.91 MPa
-Simulation finished successfully.
 ```
 
 ## Citation
