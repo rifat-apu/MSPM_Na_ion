@@ -51,7 +51,7 @@ MSPM Peak Surface Tangential Stress: 28.91 MPa
 
 ## Citation
 
-If you use this model, DFT datasets, or the code in your research, please cite our published paper:
+To cite this work:
 
 Rifat S. Apu and Rubaiyet I. Haque, "Isovolumetric design of layered oxide cathodes for high-rate sodium ion batteries: A multi-scale predictive approach," *Journal of Energy Storage*, vol. 183, p. 125274, 2027. DOI: [10.1016/j.est.2026.125274](https://doi.org/10.1016/j.est.2026.125274).
 
