@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this model or software in your research, please cite the associated journal article."
+title: "Isovolumetric design of layered oxide cathodes for high-rate sodium ion batteries: A multi-scale predictive approach"
+authors:
+  - family-names: "Apu"
+    given-names: "Rifat S."
+  - family-names: "Haque"
+    given-names: "Rubaiyet I."
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Apu"
+      given-names: "Rifat S."
+    - family-names: "Haque"
+      given-names: "Rubaiyet I."
+  title: "Isovolumetric design of layered oxide cathodes for high-rate sodium ion batteries: A multi-scale predictive approach"
+  journal: "Journal of Energy Storage"
+  volume: 183
+  pages: 125274
+  year: 2026
+  doi: "10.1016/j.est.2026.125274"
